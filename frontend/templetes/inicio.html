@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Victoria</title>
+    <link rel="icon" type="image/png" href="../static/images/favicon.jpg">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link rel="stylesheet" href="../static/styles.css">
+</head>
+
+<body>
+    <script src="../static/script.js"></script>
+    <!-- Encabezado -->
+    <header>
+        <div class="logo">
+            <img src="../static/images/logo.png" alt="Logo Hotel Victoria">
+        </div>
+        
+        <h1>HOTEL VICTORIA</h1>
+
+        <nav>
+            <ul>
+                <li><a href="#habitaciones">Habitaciones</a></li>
+                <li><a href="#ubicacion">Ubicación</a></li>
+                <li><a href="#none">Ingresar</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Banner Principal -->
+    <section class="banner">
+    <img src="../static/images/hotel.jpg" alt="Hotel Victoria">
+    </section>
+
+    <div class="banner-text">
+    <h2>Bienvenido a la mejor experiencia de hospedaje y comodidad</h2>
+    </div>
+
+    <!-- Descripción del hotel -->
+    <section class="descripcion">
+    <h2>Sobre nosotros</h2>
+    <p>
+        En el <strong>Hotel Victoria</strong> te damos la bienvenida a un espacio donde la comodidad, el diseño moderno 
+        y la atención personalizada se unen para ofrecerte una estadía verdaderamente excepcional.
+    </p>
+    <p>
+        Situados a pocos minutos del aeropuerto, somos el lugar ideal para viajeros que buscan practicidad sin 
+        renunciar al confort. Ya sea por negocios o por placer, en Hotel Victoria encontrarás un ambiente sereno, 
+        habitaciones impecables y un equipo humano dispuesto a hacerte sentir como en casa.
+    </p>
+    <ul>
+        <li>Habitaciones modernas y silenciosas</li>
+        <li>Atención 24/7 con un trato cálido y profesional</li>
+        <li>Cercanía al aeropuerto</li>
+        <li>Servicios pensados para tu bienestar</li>
+    </ul>
+    <p>
+        En cada rincón de nuestro hotel, se respira tranquilidad, elegancia y dedicación.
+    </p>
+    </section>
+
+    <!-- Sección de Habitaciones -->
+    <section id="habitaciones">
+    <h2>Nuestras habitaciones</h2>
+    <p>Elige la mejor opción para tu comodidad y disfruta de una estadía excepcional.</p>
+
+    <div class="habitaciones-container">
+        <!-- Habitación Estándar -->
+        <div class="habitacion-card">
+            <img src="../static/images/hab_estandar.jpg" alt="Habitación Estándar">
+            <h3>ESTÁNDAR</h3>
+            <p>Perfecta para viajeros que buscan comodidad y funcionalidad, con un diseño acogedor y excelente iluminación.</p>
+
+            <h4 class="habitacion-incluye">Lo que incluye</h4>
+            <ul>
+                <li>Cama individual o matrimonial</li>
+                <li>Baño privado</li>
+                <li>Televisión LED</li>
+                <li>Wi-Fi gratuito</li>
+                <li>Ventilador</li>
+            </ul>
+
+            <p class="precio"><i class="fa-solid fa-user"></i> <strong> $80.000 COP por persona</strong></p>
+            <p class="nota-impuestos">*Precio fuera de impuestos</p>
+        </div>
+
+        <!-- Habitación Premium -->
+        <div class="habitacion-card">
+            <img src="../static/images/hab_premium.jpg" alt="Habitación Premium">
+            <h3>PREMIUM</h3>
+            <p>Una opción con mayor espacio y servicios exclusivos, ideal para quienes buscan mayor confort y lujo pero con un precio mantenible.</p>
+
+            <h4 class="habitacion-incluye">Lo que incluye</h4>
+            <ul>
+                <li>Camas mejoradas</li>
+                <li>Baño privado mejorado</li>
+                <li>Minibar y cafetera</li>
+                <li>Vista panorámica</li>
+                <li>Caja fuerte</li>
+            </ul>
+
+            <p class="precio"><i class="fa-solid fa-user"></i> <strong> $120.000 COP por persona</strong></p>
+            <p class="nota-impuestos">*Precio fuera de impuestos</p>
+        </div>
+
+        <!-- Suite de Lujo -->
+        <div class="habitacion-card">
+            <img src="../static/images/hab_suite.jpg" alt="Suite de Lujo">
+            <h3>SUITE</h3>
+            <p>Un espacio exclusivo con lujo y privacidad, pensado para una experiencia de alto nivel para aquellos que desean descansar bien.</p>
+
+            <h4 class="habitacion-incluye">Lo que incluye</h4>
+            <ul>
+                <li>Camas king/queen size</li>
+                <li>Zona de sala</li>
+                <li>Balcón</li>
+                <li>Servicio de mayordomo</li>
+                <li>Baño de mármol con tina</li>
+            </ul>
+
+            <p class="precio"><i class="fa-solid fa-user"></i> <strong> $180.000 COP por persona</strong></p>
+            <p class="nota-impuestos">*Precio fuera de impuestos</p>
+        </div>
+    </div>
+    </section>
+
+    <!-- Sección de reserva -->
+    <section class="reserva">
+        <h2>Y entonces ¿Estás listo para reservar?</h2>
+        <p>Accede a tu cuenta y realiza tus reservas con nuestras habitaciones exclusivas</p>
+        <button class="btn-login">Inicia sesión</button>
+        <p class="registro">¿Y si no tengo una cuenta? <a href="#">Regístrate aquí</a></p>
+    </section>
+
+    <!-- Sección de Ubicación -->
+    <section id="ubicacion">
+    <h2>Nuestra ubicación</h2>
+
+    <div class="ubicacion-container">
+        <!-- Imagen del mapa -->
+        <div class="ubicacion-mapa">
+            <img src="../static/images/mapa.png" alt="Ubicación del hotel">
+        </div>
+
+        <!-- Descripción de la ubicación -->
+        <div class="ubicacion-info">
+            <h3>¿Cómo llegar desde el aeropuerto?</h3>
+            <p>Estamos ubicados estratégicamente a tan solo 5 minutos del aeropuerto.</p>
+
+            <h4>Opciones de transporte</h4>
+            <ul>
+                <li><i class="fa-solid fa-person-walking"></i> <strong>A pie:</strong>  Si te gusta caminar, el hotel está a 20 minutos del aeropuerto.</li>
+                <li><i class="fa-solid fa-taxi"></i> <strong>Taxi:</strong> Disponible 24/7 en el aeropuerto. Tarifa mínima: $15.000 COP.</li>
+                <li><i class="fa-solid fa-car"></i> <strong>Auto</strong> Viaja por la AV. El Dorado, a 7 minutos desde el aeropuerto.</li>
+                <li><i class="fa-solid fa-bus"></i> <strong>Transporte público:</strong> Línea K321 del SITP conecta el aeropuerto con el hotel, bajándote en el paradero "Kr100 - Cl 25". Tarifa: $3.200 COP con tarjeta TuLlave.</li>
+                <li><i class="fa-solid fa-bus"></i> <strong>Bus aeroportuario:</strong> El bus de OPAIN te lleva gratuitamente a una parada cercana al hotel. Bájate en la parada "Aeronáutica Civil" y camina 10 minutos.</li>
+            </ul>
+        </div>
+    </div>
+    </section>
+
+    <!-- Pie de Página -->
+    <footer>
+        <p>&copy; 2025 Hotel Victoria - Todos los derechos reservados.</p>
+    </footer>
+
+</body>
+</html>

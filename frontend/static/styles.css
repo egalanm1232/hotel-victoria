@@ -1,0 +1,327 @@
+/* Estilos generales */
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #dee1ff;
+    color: #000000;
+}
+
+/* Encabezado */
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #003366;
+    padding: 15px 30px;
+}
+
+.logo img {
+    height: 90px;
+}
+
+header h1 {
+    font-family: Modist, sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: 700;
+    padding: 10px 15px;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background-color: #03213e;
+    border-radius: 5px;
+}
+
+/* Banner */
+.banner {
+    text-align: center;
+    padding: 30px;
+    background-color: #0055aa;
+}
+
+.banner img {
+    width: 100%;
+    height: 120vh; /* Se agranda un poco más */
+    object-fit: cover;
+}
+
+.banner-text {
+    text-align: center; /* Alinear a la izquierda */
+    padding: 10px 40px; /* Espaciado para que no quede pegado */
+    font-size: 25px;
+    font-weight: 500;
+    color: #000000;
+}
+
+.descripcion {
+    padding: 40px 20px;
+    max-width: 1100px;
+    margin: auto;
+    line-height: 1.8; /* Espaciado más cómodo */
+    color: #ffffff;
+    text-align: justify; /* Justifica el texto */
+    background-color: #043c70; 
+    border-radius: 20px;
+}
+
+.descripcion h2 {
+    color: #7ebafb;
+    font-size: 2.2em;
+    margin-bottom: 20px;
+}
+
+.descripcion p {
+    margin-bottom: 15px;
+    text-align: justify; /* Justifica los párrafos */
+}
+
+.descripcion ul {
+    list-style-type: square;
+    padding-left: 25px; /* Ajusta mejor la sangría */
+    margin-bottom: 20px;
+}
+
+.descripcion ul li {
+    margin-bottom: 8px;
+}
+
+/* Contenedor de habitaciones */
+.habitaciones-container {
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* Tarjeta de habitación */
+.habitacion-card {
+    width: 300px;
+    background-color: #fefff9;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Imagen */
+.habitacion-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Título */
+.habitacion-card h3 {
+    font-size: 22px;
+    font-weight: 700;
+    color: #003366;
+    margin-top: 15px;
+}
+
+/* Ajuste del título "Lo que incluye" */
+.habitacion-incluye {
+    text-align: left;
+    font-size: 14px;
+    font-weight: 700;
+    color: #01274c;
+    margin-top: 15px; 
+}
+
+/* Descripción */
+.habitacion-card p {
+    font-size: 16px;
+    color: #444;
+    margin-top: 10px;
+    text-align: justify; /* Justificar el texto */
+}
+
+/* Lista de elementos incluidos */
+.habitacion-card ul {
+    list-style-type: square;
+    padding-left: 20px;
+    text-align: left; /* Alinear lista a la izquierda */
+    margin-top: 10px;
+}
+
+.habitacion-card ul li {
+    font-size: 16px;
+    color: #333;
+}
+
+/* Precio */
+.precio {
+    font-size: 18px;
+    font-weight: bold;
+    color: #007bff;
+    margin-top: 10px;
+}
+
+/* Nota de impuestos */
+.nota-impuestos {
+    font-size: 8px;
+    color: #121212;
+    font-style: italic;
+}
+
+.icono-persona {
+    width: 20px; /* Ajusta el tamaño */
+    vertical-align: middle; /* Alinea con el texto */
+    margin-right: 5px;
+}
+
+/* Secciones */
+section {
+    padding: 40px;
+    text-align: center;
+}
+
+/* Sección de reserva */
+.reserva {
+    background-color: #003366; /* Fondo azul elegante */
+    color: white;
+    padding: 40px;
+    text-align: center;
+    max-width: 100%;
+    margin: auto;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+/* Título */
+.reserva h2 {
+    font-size: 28px;
+    font-weight: 700;
+    margin-bottom: 15px;
+}
+
+/* Botón de inicio de sesión */
+.btn-login {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    font-weight: 700;
+    transition: background 0.3s;
+}
+
+.btn-login:hover {
+    background-color: #0056b3;
+}
+
+/* Registro */
+.registro {
+    margin-top: 15px;
+    font-size: 16px;
+}
+
+.registro a {
+    color: #007bff; /* Destaca el enlace de registro */
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.registro a:hover {
+    text-decoration: underline;
+}
+
+/* Contenedor de ubicación */
+.ubicacion-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 40px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+}
+
+/* Imagen del mapa */
+.ubicacion-mapa img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Información de ubicación */
+.ubicacion-info {
+    width: 55%;
+    text-align: left;
+}
+
+.ubicacion-info p {
+     margin-bottom: 15px;
+    line-height: 1.6; 
+}
+
+/* Títulos */
+.ubicacion-info h3 {
+    font-size: 24px;
+    font-weight: 700;
+    color: #003366;
+}
+
+.ubicacion-info h4 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+
+/* Lista de transporte */
+.ubicacion-info ul {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.ubicacion-info ul li {
+    font-size: 18px;
+    color: #000000;
+    margin-bottom: 25px;
+}
+
+/* Iconos con colores diferentes según el transporte */
+.ubicacion-info i.fa-taxi {
+    color: #121fb8; 
+}
+
+.ubicacion-info i.fa-car {
+    color: #121fb8; 
+}
+
+.ubicacion-info i.fa-bus {
+    color: #121fb8;
+}
+
+.ubicacion-info i.fa-person-walking {
+    color: #121fb8;
+}
+
+/* Pie de página */
+footer {
+    background-color: #003366;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-weight: 700;
+}
+
+/* Scroll automático */
+html {
+    scroll-behavior: smooth;
+}
